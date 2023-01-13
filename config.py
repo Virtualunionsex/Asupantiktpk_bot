@@ -3,7 +3,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5669449649:AAHwS2MOfMZ0mloyCrVdhk4bhmdigNp6JgI")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5887543497:AAFBKs4iPiy0DS0XIFLWxBLnMj36UQSTPG8")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "16246834"))
@@ -12,18 +12,18 @@ APP_ID = int(os.environ.get("APP_ID", "16246834"))
 API_HASH = os.environ.get("API_HASH", "29b3ffa9245c07f05375b92f38e8f13d")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001788205765"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001876797206"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "1374057358"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "2033727969"))
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "postgres://diwptmvn:euHHyhbseGVyXAuzN6N6EfEL8cgdJ9Ul@rosie.db.elephantsql.com/diwptmvn")
+DB_URI = os.environ.get("DATABASE_URL", "postgres://actgxcbx:fLq7gg25yVB2FP-x6IkYyXN_tYVvOKZL@rosie.db.elephantsql.com/actgxcbx")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "-1001724252177"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1001708537086"))
-FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1001897396394"))
+FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "-1001772273258"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1001570397549"))
+FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1001697249239"))
 
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
@@ -49,8 +49,8 @@ if os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True':
 else:
     DISABLE_CHANNEL_BUTTON = False
 
-ADMINS.append(1674129272)
-ADMINS.append(5042563853)
+ADMINS.append(2033727969)
+ADMINS.append(1979441001)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
