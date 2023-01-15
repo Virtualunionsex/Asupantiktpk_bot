@@ -3,7 +3,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5887543497:AAFBKs4iPiy0DS0XIFLWxBLnMj36UQSTPG8")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5906933572:AAFcop8Uf7fThAR3nnSh1D2rJIBzUwD1dDQ")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "16246834"))
@@ -12,18 +12,18 @@ APP_ID = int(os.environ.get("APP_ID", "16246834"))
 API_HASH = os.environ.get("API_HASH", "29b3ffa9245c07f05375b92f38e8f13d")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001876797206"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001733429165"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "2033727969"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "1441775402"))
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "postgres://actgxcbx:fLq7gg25yVB2FP-x6IkYyXN_tYVvOKZL@rosie.db.elephantsql.com/actgxcbx")
+DB_URI = os.environ.get("DATABASE_URL", "postgres://zsiqpsed:nccg11BCon1uFeT1sNn5NjUdvENm4l_p@castor.db.elephantsql.com/zsiqpsed")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "-1001772273258"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1001570397549"))
-FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1001697249239"))
+FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "-1001614909222"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1001481266486"))
+FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1001613637975"))
 
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
@@ -32,7 +32,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "5042563853 1374057358").split()):
+    for x in (os.environ.get("ADMINS", "5042563853 1374057358 1854578847").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -49,8 +49,8 @@ if os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True':
 else:
     DISABLE_CHANNEL_BUTTON = False
 
-ADMINS.append(2033727969)
-ADMINS.append(1979441001)
+ADMINS.append(1441775402)
+ADMINS.append(1854578847)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
