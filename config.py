@@ -12,7 +12,7 @@ APP_ID = int(os.environ.get("APP_ID", "16246834"))
 API_HASH = os.environ.get("API_HASH", "29b3ffa9245c07f05375b92f38e8f13d")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001733429165"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001817107545"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "1441775402"))
@@ -21,7 +21,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "1441775402"))
 DB_URI = os.environ.get("DATABASE_URL", "postgres://zsiqpsed:nccg11BCon1uFeT1sNn5NjUdvENm4l_p@castor.db.elephantsql.com/zsiqpsed")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "-1001614909222"))
+FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "-1001851570568"))
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1001481266486"))
 FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1001613637975"))
 
