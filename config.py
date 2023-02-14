@@ -3,7 +3,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5734187303:AAHucI-sA3Wdp4ducLnve9Z66ks9f2m4kgs")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5956021918:AAHcFpgfZUjPQ3ElB8Ko1F5Tej2-QMEhX5Q")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "16246834"))
@@ -12,33 +12,33 @@ APP_ID = int(os.environ.get("APP_ID", "16246834"))
 API_HASH = os.environ.get("API_HASH", "29b3ffa9245c07f05375b92f38e8f13d")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001817107545"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001810517856"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "1441775402"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "5589797950"))
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "postgres://cfwwucms:ud7VkJxQ_sZSfGOXXDCk7L2qlLyl2rLf@castor.db.elephantsql.com/cfwwucms")
+DB_URI = os.environ.get("DATABASE_URL", "postgres://xupwbxxa:4SCfAzGvy4xpj9P3VzuBfPn4AsgasV-T@rosie.db.elephantsql.com/xupwbxxa")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "-1001851570568"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1001613637975"))
-FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1001849515297"))
+FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "-1001340728711"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1001835692527"))
+FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1001673770607"))
 
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
+START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nJOIN VVIP MURAH DAN TERPERCAYA DI @VIPEXOTIS.")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "1821550386 1374057358 1854578847").split()):
+    for x in (os.environ.get("ADMINS", "5589797950 1245451624 1715348447").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n<b>You need to join in my Channel/Group to use me\n\nJoin dlu group dan channel-nya ya kalaw mau video bokep free</b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n<b>You need to join in my Channel/Group to use me\n\nJOIN VVIP MURAH DAN TERPERCAYA DI @VIPEXOTIS</b>")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
@@ -49,8 +49,8 @@ if os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True':
 else:
     DISABLE_CHANNEL_BUTTON = False
 
-ADMINS.append(1441775402)
-ADMINS.append(1821550386)
+ADMINS.append(5589797950)
+ADMINS.append(1245451624)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
