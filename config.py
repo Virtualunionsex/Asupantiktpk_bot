@@ -3,7 +3,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5835277295:AAHPYzLWOItoV8IJkp28jnkN_L-AI3Bd4Fw")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5684493105:AAFxzN3NfArm6jwF7wzs58vCqM7s6_1dup0")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "16246834"))
@@ -12,18 +12,18 @@ APP_ID = int(os.environ.get("APP_ID", "16246834"))
 API_HASH = os.environ.get("API_HASH", "29b3ffa9245c07f05375b92f38e8f13d")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001805757516"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001744574588"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "1715348447"))
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "postgres://jdgqxjkz:i64ndEDX8WyLIrRigS38Izk-w64qA9SC@rosie.db.elephantsql.com/jdgqxjkz")
+DB_URI = os.environ.get("DATABASE_URL", "postgres://mfasolwm:etV5BEUhisFEHAiQaaW7if8mufxKIDHT@rosie.db.elephantsql.com/mfasolwm"
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "-1001606991843"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1001528080636"))
-FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1001569500029"))
+FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "-1001871922677"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1001871325231"))
+FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1001846286966"))
 
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
