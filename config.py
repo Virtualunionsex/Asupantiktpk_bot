@@ -3,7 +3,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5994625577:AAGTBrgHl4fo4ZbYjY_tt1jyDyRT6dBcCDs")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6001121334:AAF87To3sdCO1nntExQ1eTRQi9MB7qGOi70")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "16246834"))
@@ -12,18 +12,18 @@ APP_ID = int(os.environ.get("APP_ID", "16246834"))
 API_HASH = os.environ.get("API_HASH", "29b3ffa9245c07f05375b92f38e8f13d")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001702967717"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001825900487"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "1715348447"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "5360457944"))
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "postgres://ahrwaung:xUzeUb_5NZj-WDPnbzoYrnslWwJvyRxo@rosie.db.elephantsql.com/ahrwaung") 
+DB_URI = os.environ.get("DATABASE_URL", "postgres://kakvtwqj:oz1Onnq2PCIgsP3nK216ZPCYVtMYqXHq@rosie.db.elephantsql.com/kakvtwqj") 
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "-1001847890448"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1001956453789"))
-FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1001731066874"))
+FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "-1001934141494"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1001799814501"))
+FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1001982294869"))
 
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
