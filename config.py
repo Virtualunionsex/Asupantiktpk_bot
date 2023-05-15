@@ -3,7 +3,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6114546485:AAFxzoWfrdX61j3bFcOSIR-OpCQkkHNXQdc")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6142069514:AAEjcnb0wjaVJJ6Eh7EpC8Gn99OncXLmolE")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "16246834"))
@@ -12,17 +12,17 @@ APP_ID = int(os.environ.get("APP_ID", "16246834"))
 API_HASH = os.environ.get("API_HASH", "29b3ffa9245c07f05375b92f38e8f13d")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001702967717"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001640905754"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "5360457944"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "7423630"))
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "postgres://rcmtggpa:5DoKhYHW0LBYPMiq-5tQ2DeAqKEWX-_9@salt.db.elephantsql.com/rcmtggpa") 
+DB_URI = os.environ.get("DATABASE_URL", "postgres://monyvvhi:YPe3K8qHTxyH213ro8EbiVQvF9gr5SAb@queenie.db.elephantsql.com/monyvvhi") 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "-1001901427817"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1001847890448"))
-FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1001731066874"))
+FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "-1001839680462"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1001677820397"))
+FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1001941542167"))
 
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
@@ -31,7 +31,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nJoin grup dan channel nya dlu yah")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "5360457944").split()):
+    for x in (os.environ.get("ADMINS", "5591632852").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -49,7 +49,7 @@ else:
     DISABLE_CHANNEL_BUTTON = False
 
 ADMINS.append(1715348447)
-ADMINS.append(5360457944) 
+ADMINS.append(5591632852) 
 ADMINS.append(0) 
 
 LOG_FILE_NAME = "filesharingbot.txt"
