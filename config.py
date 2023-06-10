@@ -28,7 +28,7 @@ FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1001553491540"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nJoin grup dan channel nya dlu yah\n\n Hub @tenisi69_bot jika bot mati")
+START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nJoin grup dan channel nya dlu yah\n\n Hub @teknisi69_bot jika bot mati")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "1715348447 5360457944 5546923802").split()):
